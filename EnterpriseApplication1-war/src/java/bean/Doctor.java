@@ -58,7 +58,7 @@ public class Doctor extends HttpServlet {
             out.println("<head>");
             out.println("<title>Data Entry</title>");            
             out.println("</head>");
-            out.println("<body>");
+            out.println("<body bgcolor='#26A69A'>");
             out.println("<br><h3><center><b>"+message+"</b></center></h3>");
             out.println("<br><center><a href='LoginJSP.jsp'>Logout</a></center>");
             out.println("</body>");

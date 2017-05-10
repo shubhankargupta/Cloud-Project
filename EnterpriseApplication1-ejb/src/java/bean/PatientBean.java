@@ -53,7 +53,7 @@ public class PatientBean implements SimplePatient,SessionBean {
         try{
         
         Class.forName("com.mysql.jdbc.Driver");
-            try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital","root","test")) {
+            try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:8889/hospital","root","root")) {
                 Statement s1=con.createStatement();
                 Statement s2=con.createStatement();
                 
@@ -128,7 +128,7 @@ public class PatientBean implements SimplePatient,SessionBean {
         
         try{
              Class.forName("com.mysql.jdbc.Driver");
-            try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital","root","test")) {
+            try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:8889/hospital","root","root")) {
                    
                 Statement st3=conn.createStatement();
                 Statement st4=conn.createStatement();

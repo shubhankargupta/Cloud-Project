@@ -5,6 +5,8 @@
  */
 package bean;
 
+import java.rmi.RemoteException;
+import javax.ejb.EJBHome;
 import javax.ejb.EJBObject;
 import javax.ejb.Local;
 
@@ -16,6 +18,8 @@ import javax.ejb.Local;
 public interface SimpleDoctor extends EJBObject {
     
     public String addData(String symptom,String disease,String cure,String doctor_id);
+
+    public EJBHome getEJBHome() throws RemoteException;
     
 }
 

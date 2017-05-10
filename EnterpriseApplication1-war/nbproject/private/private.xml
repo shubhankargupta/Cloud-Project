@@ -3,20 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/web/LoginJSP.jsp</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/web/patient.html</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/web/footer.html</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/src/java/bean/Profession.java</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/web/index.html</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/src/java/bean/Doctor.java</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/src/java/bean/LoginServlet.java</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/web/doctor.html</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/web/profession.html</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/src/java/bean/SignUpServlet.java</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/web/PatientSignUp.html</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/web/patient2.jpg</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/Gupta/Documents/NetBeansProjects/EnterpriseApplication1/EnterpriseApplication1-war/src/java/bean/Patient.java</file>
+            <file>file:/Users/therealshabi/Desktop/EnterpriseApplication1/EnterpriseApplication1-war/web/patient.jsp</file>
+            <file>file:/Users/therealshabi/Desktop/EnterpriseApplication1/EnterpriseApplication1-war/web/patient.html</file>
+            <file>file:/Users/therealshabi/Desktop/EnterpriseApplication1/EnterpriseApplication1-war/src/java/bean/PatientSignUp.java</file>
+            <file>file:/Users/therealshabi/Desktop/EnterpriseApplication1/EnterpriseApplication1-war/src/java/bean/Doctor.java</file>
+            <file>file:/Users/therealshabi/Desktop/EnterpriseApplication1/EnterpriseApplication1-war/src/java/bean/DoctorSignUp.java</file>
+            <file>file:/Users/therealshabi/Desktop/EnterpriseApplication1/EnterpriseApplication1-war/src/java/bean/Patient.java</file>
+            <file>file:/Users/therealshabi/Desktop/EnterpriseApplication1/EnterpriseApplication1-war/web/LoginJSP.jsp</file>
+            <file>file:/Users/therealshabi/Desktop/EnterpriseApplication1/EnterpriseApplication1-war/src/java/bean/LoginServlet.java</file>
+            <file>file:/Users/therealshabi/Desktop/EnterpriseApplication1/EnterpriseApplication1-war/web/doctor.jsp</file>
         </group>
     </open-files>
 </project-private>

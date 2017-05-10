@@ -40,7 +40,7 @@ public class PatientSignUp extends HttpServlet {
         try{
         
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital","root","test");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:8889/hospital","root","root");
         
         //Statement s=conn.createStatement();
         

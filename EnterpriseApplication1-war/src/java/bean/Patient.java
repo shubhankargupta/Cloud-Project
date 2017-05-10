@@ -50,7 +50,7 @@ public class Patient extends HttpServlet {
             out.println("<head>");
             out.println("<title>Information</title>");            
             out.println("</head>");
-            out.println("<body>");
+            out.println("<body bgcolor='#26A69A'>");
             out.println("<br><center><b>"+info+"</b></center>");
             
             if(bloodgroup!=null)

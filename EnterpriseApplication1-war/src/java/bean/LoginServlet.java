@@ -66,11 +66,15 @@ public class LoginServlet extends HttpServlet {
                 }
                 else{
                 out.println("<br><b><center>"+ans+"</b></center>");
-                RequestDispatcher rd1=request.getRequestDispatcher("patient.html");
+                HttpSession session = request.getSession();
+                session.setMaxInactiveInterval(15);
+                RequestDispatcher rd1=request.getRequestDispatcher("patient.jsp");
                 rd1.include(request, response);
             
             RequestDispatcher rd2=request.getRequestDispatcher("footer.html");
             rd2.include(request, response);
+            
+            //response.addHeader("refesh","10");
             }
             }
             
@@ -85,12 +89,13 @@ public class LoginServlet extends HttpServlet {
                 out.println("<br><center>"+doc+"</b></center>");
                 HttpSession session = request.getSession();
                 session.setAttribute("Doctor", doc);
+                session.setMaxInactiveInterval(15);
                 RequestDispatcher rd3=request.getRequestDispatcher("doctor.jsp");
                 rd3.forward(request, response);
                 
                 RequestDispatcher rd4=request.getRequestDispatcher("footer.html");
                 rd4.include(request, response);
-                
+                //response.addHeader("refesh","10");    
             }
             
             //out.println("<h1>Servlet LoginServlet at " + request.getContextPath() + "</h1>");

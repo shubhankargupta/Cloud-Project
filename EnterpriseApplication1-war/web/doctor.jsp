@@ -4,6 +4,9 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+
+<META HTTP-EQUIV="refresh" CONTENT="<%= session.getMaxInactiveInterval()%>; URL=LoginJSP.jsp" />
+
 <html>
     <head>
 
@@ -39,12 +42,9 @@ top: 200px;
           <div class="container">
               <div class="navbar-header"> <a class="navbar-brand mon" href="#home">Medicare</a> </div>
               <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
-                  <li><a href="#about">About</a>
+                  <li><a href="About.html">About</a>
                   </li>
-                  <li><a href="#signout">Sign Out</a>
-                  </li>
-                  <li><a href="#signin">Sign In</a>
-                  </li>
+                  <li><a href="LoginJSP.jsp">Sign Out</a>                  
               </ul>
           </div>
       </nav>
@@ -66,6 +66,6 @@ top: 200px;
 
           </form>
         </div>
-    </body>
+    </body> 
 
 </html>
